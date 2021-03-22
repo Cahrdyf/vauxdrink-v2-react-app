@@ -1,0 +1,63 @@
+$clrSWh: #eee;
+$clrSBl: #222;
+
+.subheader {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  letter-spacing: .75rem;
+}
+
+.drinks-main {
+  z-index: -99;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card-drink {
+  overflow: hidden;
+  display: flex;
+  cursor: pointer;
+  width: 80%;
+  margin: 2rem auto 6rem auto;
+  text-shadow: 0 0 1rem #111;
+  
+  &-image{
+    height: 20rem;
+	width: 100%;
+	object-fit: cover;
+  }
+  p {
+    display: block;
+  }
+  div {
+    position: absolute;
+	width: 60%;
+	padding: 1rem 0 1rem 1rem;
+	background: $clrSBl;
+	opacity: .5;
+  }
+}
+
+.flex-panels-drinks{
+  display: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .card-drink {
+    width: 40%;
+    div {
+	  width: 30%;
+    }
+  }
+
+  .flex-panels-drinks{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+	column-gap: 2rem;
+	padding: 2rem
+  }
+}
