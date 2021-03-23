@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vauxdrink-v2-react-app/static/css/main.6c0db9bc.chunk.css",
-    "main.js": "/vauxdrink-v2-react-app/static/js/main.01a87426.chunk.js",
-    "main.js.map": "/vauxdrink-v2-react-app/static/js/main.01a87426.chunk.js.map",
+    "main.js": "/vauxdrink-v2-react-app/static/js/main.ed94e926.chunk.js",
+    "main.js.map": "/vauxdrink-v2-react-app/static/js/main.ed94e926.chunk.js.map",
     "runtime-main.js": "/vauxdrink-v2-react-app/static/js/runtime-main.969ae885.js",
     "runtime-main.js.map": "/vauxdrink-v2-react-app/static/js/runtime-main.969ae885.js.map",
     "static/js/2.b9a653f2.chunk.js": "/vauxdrink-v2-react-app/static/js/2.b9a653f2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.969ae885.js",
     "static/js/2.b9a653f2.chunk.js",
     "static/css/main.6c0db9bc.chunk.css",
-    "static/js/main.01a87426.chunk.js"
+    "static/js/main.ed94e926.chunk.js"
   ]
 }
