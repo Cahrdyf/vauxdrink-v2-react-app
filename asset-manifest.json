@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/vauxdrink-v2-react-app/static/css/main.6c0db9bc.chunk.css",
-    "main.js": "/vauxdrink-v2-react-app/static/js/main.acb76eb7.chunk.js",
-    "main.js.map": "/vauxdrink-v2-react-app/static/js/main.acb76eb7.chunk.js.map",
+    "main.js": "/vauxdrink-v2-react-app/static/js/main.5b8619d1.chunk.js",
+    "main.js.map": "/vauxdrink-v2-react-app/static/js/main.5b8619d1.chunk.js.map",
     "runtime-main.js": "/vauxdrink-v2-react-app/static/js/runtime-main.969ae885.js",
     "runtime-main.js.map": "/vauxdrink-v2-react-app/static/js/runtime-main.969ae885.js.map",
     "static/js/2.b9a653f2.chunk.js": "/vauxdrink-v2-react-app/static/js/2.b9a653f2.chunk.js",
     "static/js/2.b9a653f2.chunk.js.map": "/vauxdrink-v2-react-app/static/js/2.b9a653f2.chunk.js.map",
     "index.html": "/vauxdrink-v2-react-app/index.html",
     "static/css/main.6c0db9bc.chunk.css.map": "/vauxdrink-v2-react-app/static/css/main.6c0db9bc.chunk.css.map",
-    "static/js/2.b9a653f2.chunk.js.LICENSE.txt": "/vauxdrink-v2-react-app/static/js/2.b9a653f2.chunk.js.LICENSE.txt"
+    "static/js/2.b9a653f2.chunk.js.LICENSE.txt": "/vauxdrink-v2-react-app/static/js/2.b9a653f2.chunk.js.LICENSE.txt",
+    "static/media/vid.50fd4fa0.mp4": "/vauxdrink-v2-react-app/static/media/vid.50fd4fa0.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.969ae885.js",
     "static/js/2.b9a653f2.chunk.js",
     "static/css/main.6c0db9bc.chunk.css",
-    "static/js/main.acb76eb7.chunk.js"
+    "static/js/main.5b8619d1.chunk.js"
   ]
 }
