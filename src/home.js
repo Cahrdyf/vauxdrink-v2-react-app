@@ -103,7 +103,7 @@ function Home() {
 	  <NavLink to="/drinks">
 	    <OverText/>
 	    <video width='auto' height='auto' autoPlay loop muted playsInline>
-          <source src='./public/video/vid.mp4' type='video/mp4'/>
+          <source src='vid.mp4' type='video/mp4'/>
         </video>
 	  </NavLink>
 	  <div id='home-clock' className="home-clock"></div>
