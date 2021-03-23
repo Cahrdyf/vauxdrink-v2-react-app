@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import vid from './video/vid.mp4';
 //import Root from './index.js';
 
 function O(obj){
@@ -103,7 +104,7 @@ function Home() {
 	  <NavLink to="/drinks">
 	    <OverText/>
 	    <video width='auto' height='auto' autoPlay loop muted playsInline>
-          <source src='vid.mp4' type='video/mp4'/>
+          <source src={vid} type='video/mp4'/>
         </video>
 	  </NavLink>
 	  <div id='home-clock' className="home-clock"></div>
