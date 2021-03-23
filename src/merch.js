@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
+import hoodie from "./image/hoodie2.png";
 //import Root from './index.js';
 
 function Product(props){
@@ -28,8 +29,8 @@ function Merch(){
 	  <Subheader/>
 		<div className="merch-main">
 		  <div className="flex-panels-merch">
-			<Product name="Vaux Viallis Hoodie" image="./image/hoodie2.png"/>
-			<Product name="More Apparel" image="./image/hoodie2.png"/>
+			<Product name="Vaux Viallis Hoodie" image={hoodie}/>
+			<Product name="More Apparel" image={hoodie}/>
 		  </div>
 		</div>
 	</div>

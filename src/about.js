@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
+import vid from './video/vid.mp4';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 //import Root from './index.js';
@@ -30,7 +31,7 @@ function About(){
   return(
     <div className="about">
       <video width='auto' height='auto' autoPlay loop muted playsInline>
-        <source src='./video/vid.mp4' type='video/mp4'/>
+        <source src={vid} type='video/mp4'/>
       </video>
       <AboutText/>
 	</div>

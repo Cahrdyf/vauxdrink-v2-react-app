@@ -4,6 +4,8 @@ import './index.scss';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import vid from './video/vid.mp4';
+import beer from './image/beer.jpg';
+import hoodie from './image/hoodie.png';
 //import Root from './index.js';
 
 function O(obj){
@@ -116,12 +118,12 @@ function Home() {
 	  <div className="flex-panels">
 	    <NavLink to="/drinks">
 	      <div>
-			<Panels main='Indulge' sub="Drinks" image="./image/beer.jpg"/>
+			<Panels main='Indulge' sub="Drinks" image={beer}/>
 		  </div>
 		</NavLink>
 		<NavLink to="/merch">
 		  <div>
-			  <Panels main='Warm' sub="Wearables" image="./image/hoodie.png"/>
+			  <Panels main='Warm' sub="Wearables" image={hoodie}/>
 		  </div>
 		</NavLink>
 	  </div>
