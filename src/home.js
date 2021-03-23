@@ -4,6 +4,7 @@ import './index.scss';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import vid from './video/vid.mp4';
+import vido from './video/vid.ogv';
 import beer from './image/beer.jpg';
 import hoodie from './image/hoodie.png';
 //import Root from './index.js';
@@ -107,6 +108,7 @@ function Home() {
 	    <OverText/>
 	    <video width='auto' height='auto' autoPlay loop muted playsInline>
           <source src={vid} type='video/mp4'/>
+		  <source src={vido} type='video/ogv'/>
         </video>
 	  </NavLink>
 	  <div id='home-clock' className="home-clock"></div>
